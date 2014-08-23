@@ -1,6 +1,6 @@
 ci-donkey-test
 ============
 
-[![Build Status](http://scolvin.com/flaskci/status.svg)](http://scolvin.com/flaskci) 
+[![Build Status](http://scolvin.com/cid/status.svg)](http://scolvin.com/cid) 
 
-Test Repo for [ci-donkey](https://github.com/samuelcolvin/ci-donkey) engine
+Test Repo for ci-donkey engine. This is used to check if ci-donkey is working including webhooks from github etc.
