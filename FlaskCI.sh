@@ -7,4 +7,5 @@ echo "this is where you would install requirements and setup the enviroment"
 # <MAIN SCRIPT>:
 # python manage.py test
 echo "now we're going to actually test the system"
+echo "*** this is test-fix branch ***"
 ./env/bin/python sample_test.py
