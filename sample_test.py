@@ -4,6 +4,9 @@ FlaskCI.
 """
 import unittest
 import time
+from pprint import pprint
+import random
+import string
 
 class Test(unittest.TestCase):
 
@@ -17,7 +20,10 @@ class Test(unittest.TestCase):
         print 'finished slow thing'
 
     def test_foo(self):
-        print 'test foo: fails'
+        print 'test foo:'
+        big_list = [''.join(random.choice(string.ascii_lowercase) for i in range(50))
+            for _ in range(100)]
+        pprint(big_list)
         #raise Exception('foo error')
 
 
