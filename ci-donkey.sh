@@ -6,7 +6,7 @@ echo "this is where you would install requirements and setup the enviroment"
 
 echo "we have to copy the source into place since it's in a read only mounted volume"
 cp /src/* .
-
+sleep 90
 # <MAIN SCRIPT>:
 # python manage.py test
 echo "now we're going to actually test the system"
