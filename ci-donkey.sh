@@ -1,7 +1,7 @@
-# continuous integration script fror FlaskCI
-# <PRE SCRIPT>:
+# !/bin/bash
+set -e
 virtualenv env
-./env/bin/install django uWSGI
+./env/bin/pip install django uWSGI
 echo "we haven't changed source so remember to manually call the correct python (or other script)"
 echo "this is where you would install requirements and setup the enviroment"
 
