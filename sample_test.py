@@ -1,6 +1,6 @@
 """
 This file exists to demonstrate the functionality of 
-FlaskCI.
+ci-donkey.
 """
 import unittest
 import time
