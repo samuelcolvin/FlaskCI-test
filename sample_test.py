@@ -24,7 +24,7 @@ class Test(unittest.TestCase):
         big_list = [''.join(random.choice(string.ascii_lowercase) for i in range(50))
             for _ in range(100)]
         pprint(big_list)
-        raise Exception('foo error')
+        # raise Exception('foo error')
 
 
 if __name__ == '__main__':
